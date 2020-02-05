@@ -18,8 +18,8 @@ body {
 }
 .left-wrapper {
     height: 100vh;
-    width: 8%;
-    background-color: rgb(43, 42, 42);
+    width: 6%;
+    background-color: rgba(43, 42, 42, 0.74);
 }
 .wrapper {
     position: relative;
@@ -29,7 +29,8 @@ body {
 .nav-bar {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
+    margin-top: 1rem;
 }
 .nav-bar .logo {
     font-size: 3rem;
@@ -66,8 +67,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    top: 24rem;
-    left: 9rem;
+    top: 21rem;
+    left: 12rem;
     width: 80%;
 }
 .left-content {
@@ -75,11 +76,35 @@ body {
     width: 50%;
 }
 .left-content .rule {
-    width: 50%;
+    width: 40%;
 }
 .right-content {
     width: 50%;
 }
 .right-content h1 {
     font-size: 4.5rem;
+}
+.bottom-content {
+    height: 17%;
+    width: 100%;
+    background-color: #1c1c1cce;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+}
+.bottom-content .section-1 {
+    width: 20%;
+    height: auto;
+    margin: 1rem;
+}
+.bottom-content .section-2 {
+    width: 10%;
+    height: auto;
+    margin-right: 5rem;
+}
+.bottom-content .section-2 img {
+    display: block;
+    width: auto;
+    height: 100%;
 }
