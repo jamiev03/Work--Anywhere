@@ -38,6 +38,20 @@ body {
     font-weight: 700;
     padding-left: 1rem;
 }
+.logo-left {
+    height: 6.5rem;
+    width: 100%;
+    background-color: #1c1c1c;
+    position: relative;
+}
+.logo-left i {
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #7c7c7c;
+}
 .logo span.underline {
     border-bottom: 3px solid #1c1c1c;
 }
@@ -83,6 +97,7 @@ body {
 }
 .right-content h1 {
     font-size: 4.5rem;
+    padding-bottom: 1rem;
 }
 .bottom-content {
     height: 17%;
@@ -92,11 +107,20 @@ body {
     right: 0;
     bottom: 0;
     display: flex;
+    justify-content: space-between;
 }
 .bottom-content .section-1 {
     width: 20%;
     height: auto;
     margin: 1rem;
+}
+.bottom-content .section-1 h4 {
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+.bottom-content .section-1 p {
+    font-size: .8rem;
+    line-height: 1.8;
 }
 .bottom-content .section-2 {
     width: 10%;
