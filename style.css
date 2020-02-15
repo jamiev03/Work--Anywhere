@@ -70,6 +70,9 @@ body {
     border-bottom: 2px solid white;
     padding-bottom: .6rem;
 }
+.nav-bar ul li:hover {
+    transform: scale(.9);
+}
 .nav-bar ul li .border {
     padding: .5rem 1rem;
     background: transparent;
@@ -93,6 +96,7 @@ body {
     width: 40%;
 }
 .right-content {
+    padding-top: 6rem;
     width: 50%;
 }
 .right-content h1 {
