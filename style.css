@@ -89,7 +89,7 @@ body {
     width: 80%;
 }
 .left-content {
-    margin-right: 20rem;
+    margin-right: 18rem;
     width: 50%;
 }
 .left-content .rule {
@@ -136,3 +136,65 @@ body {
     width: auto;
     height: 100%;
 }
+
+
+
+
+  /* MEDIA QUERIES */
+  @media screen and (max-width: 1176px) {
+    .content {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        top: 19rem;
+        left: 5rem;
+        width: 80%;
+    }
+    .left-content {
+        margin-right: 15rem;
+        width: 50%;
+    }
+    .right-content {
+        padding-top: 6rem;
+        width: 50%;
+    }
+    .right-content h1 {
+        font-size: 4.5rem;
+        padding-bottom: 1rem;
+    } 
+
+    .bottom-content {
+        height: 17%;
+        width: 100%;
+        background-color: #1c1c1cce;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .bottom-content .section-1 {
+        width: 20%;
+        height: auto;
+        margin: 1rem;
+    }
+    .bottom-content .section-1 h4 {
+        margin-bottom: 1.5rem;
+        text-transform: uppercase;
+    }
+    .bottom-content .section-1 p {
+        font-size: .8rem;
+        line-height: 1.8;
+    }
+    .bottom-content .section-2 {
+        width: 10%;
+        height: auto;
+        margin-right: 5rem;
+    }
+    .bottom-content .section-2 img {
+        display: block;
+        width: auto;
+        height: 100%;
+    }
+  }
